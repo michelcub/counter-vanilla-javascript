@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <script defer src="./app.js"></script>
+</head>
+<body>
+    <section class="w-screen h-screen bg-gray-300 pt-8 flex flex-col justify-around" >
+        <div class="flex justify-center">
+            <h1 class="text-6xl font-bold hover:rotate-12">Counter</h1>
+        </div>
+
+        <div class="flex justify-center items-center">
+            <p id="display" class="text-9xl ">
+                0
+            </p>
+        </div>
+        <div class="flex justify-center gap-9">
+            <button id="btnDecrease" class="border border-black rounded p-2 hover:bg-red-200 active:rotate-12 btn">Decrease</button>
+            <button id="btnReset" class="border border-black rounded p-2 hover:bg-blue-200 active:rotate-12 btn">Reset Counter</button>
+            <button id="btnIncrement" class="border border-black rounded p-2 hover:bg-green-200 active:rotate-12 btn">Increment</button>
+        </div>
+    </section>
+</body>
+</html>
